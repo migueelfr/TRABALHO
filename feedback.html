@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/feedback.css" rel="stylesheet" type="text/css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="navbar">
+    <div class="container">
+      <h1 class="logo" onclick="location.href='index.html'">Mayara Elizandra</h1>
+      <p>VideoMaker Mobile</p>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="home.html">Serviços</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="feedback-container">
+      <h5>Deixe seu Feedback</h5>
+      <p1>Conte-nos o que achou do nosso site e do serviço prestado!</p1>
+
+      <div class="rating">
+        <input type="radio" id="star5" name="rating" value="5" />
+        <label for="star5" title="5 estrelas">&#9733;</label>
+        <input type="radio" id="star4" name="rating" value="4" />
+        <label for="star4" title="4 estrelas">&#9733;</label>
+        <input type="radio" id="star3" name="rating" value="3" />
+        <label for="star3" title="3 estrelas">&#9733;</label>
+        <input type="radio" id="star2" name="rating" value="2" />
+        <label for="star2" title="2 estrelas">&#9733;</label>
+        <input type="radio" id="star1" name="rating" value="1" />
+        <label for="star1" title="1 estrela">&#9733;</label>
+      </div>
+
+      <form class="feedback-form">
+        <textarea name="feedback" id="feedback" rows="5" placeholder="Escreva seu feedback aqui..."></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <div class="feedback-display">
+      <h2>Feedbacks Anteriores</h2>
+      <ul id="feedbackList">
+        <li>
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="text">"O serviço de gravação foi incrível! A qualidade do vídeo é excelente e capturou todos os
+            momentos perfeitamente!"</div>
+        </li>
+        <li>
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="text">"O site está fácil de navegar, e o processo de contratação foi muito simples. Super
+            recomendado!"</div>
+        </li>
+        <li>
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="text">"Fiquei impressionado com a rapidez e a eficiência na gravação de vídeos. A equipe é muito
+            profissional."</div>
+        </li>
+        <li>
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="text">"O resultado final dos vídeos ficou ótimo, e o suporte foi excelente durante todo o
+            processo."
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2024 VideoMaker Mobile. Todos os direitos reservados.</p>
+      <ul class="footer-links">
+        <li><a href="https://www.instagram.com/mayaraelizandrar/"><img src="./img/instagram.png" alt="instagram" /> </a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=5531999998095"><img src="./img/message-circle.png" alt="whatsapp" /> </a></li>
+        <li><a href="mailto:mayaraelizandra.contato@gmail.com"><img src="./img/mail.png" alt="email" /> </a></li>
+        <li><a href="politica.html"><img src="./img/handshake.png" alt="politica e privacidade" /> </a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>
